@@ -4,8 +4,9 @@
 *
   box-sizing: border-box
 
-$color-blue: #5290EA
+$color-grey: #E2E2E2
 $color-orange: #F28B64
+$color-blue: #5290EA
 
 .container
   max-width: 1140px
@@ -195,8 +196,32 @@ $color-orange: #F28B64
   min-height: 700px
   &__container
     padding-top: 32px
+    position: relative
   &__title
     margin-bottom: 40px
+  &__cards-box
+    display: inline-flex
+    margin-bottom: 25px
+  &__cards-item
+    margin-right: 30px
+    &:last-child
+      margin-right: 0
+  &__icons-box
+    display: flex
+    justify-content: space-evenly
+  &__icons-item
+    &:last-child
+      margin-right: 0
+  &__first-elipse
+    position: absolute
+    top: 80px
+    right: -60px
+    z-index: -1
+  &__second-elipse
+    position: absolute
+    top: 364px
+    left: -60px
+    z-index: -1
 
   .cards-item
     position: relative
@@ -204,7 +229,6 @@ $color-orange: #F28B64
     align-items: flex-end
     width: 360px
     height: 360px
-    background-color: #E2E2E2
     border-radius: 10px
 
     &__img
@@ -217,4 +241,24 @@ $color-orange: #F28B64
       transform: rotate(90deg)
       position: absolute
       top: 144px
-      right: -30px
+      right: -45px
+
+.cards-item_grey
+  background: $color-grey
+
+.cards-item_orange
+  background: $color-orange
+
+.cards-item_blue
+  background: $color-blue
+
+.icons-item
+  display: inline-flex
+  align-items: center
+  &__img
+    margin-right: 20px
+    width: 80px
+  &__text
+    font-size: 18px
+    span
+      font-size: 48px
