@@ -865,62 +865,87 @@ html {
     width: 170px;
     height: 170px;
   }
+  .second-section {
+    min-height: 450px;
+  }
+  .second-section__container {
+    padding-top: 20px;
+  }
+  .second-section__title {
+    margin-bottom: 25px;
+  }
+  .second-section__cards-box {
+    margin-bottom: 10px;
+  }
+  .second-section__first-elipse {
+    top: 80px;
+    right: -36px;
+  }
+  .second-section__second-elipse {
+    left: -27px;
+    top: 270px;
+  }
+  .cards-item {
+    width: 220px;
+    height: 220px;
+  }
+  .cards-item img {
+    height: 200px;
+  }
+  .cards-item__text {
+    top: 92px;
+    left: 20px;
+    font-size: 22px;
+  }
+  .cards-item__text {
+    font-size: 14px;
+  }
+  .cards-item__text span {
+    font-size: 30px;
+  }
+  .cards-item img {
+    width: 50px;
+  }
+  .third-section__container {
+    padding-left: 40px;
+  }
+  .third-section__right-wrapper {
+    max-width: 450px;
+  }
+  .elipse_big {
+    width: 250px;
+    height: 250px;
+  }
+  .third-section {
+    min-height: 510px;
+  }
+  .third-section__left-title {
+    display: none;
+  }
+  .third-section__right-wrapper {
+    max-width: 600px;
+  }
+  .third-section__container {
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .third-section__right-title {
+    margin-bottom: 10px;
+  }
+  .title__hr_top {
+    bottom: 60px;
+  }
+  .footer__img {
+    width: 500px;
+  }
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  .footer__container {
+    min-height: 210px;
+  }
 }
-.second-section {
-  min-height: 450px;
-}
-.second-section__container {
-  padding-top: 20px;
-}
-.second-section__title {
-  margin-bottom: 25px;
-}
-.second-section__cards-box {
-  margin-bottom: 10px;
-}
-.second-section__first-elipse {
-  top: 80px;
-  right: -36px;
-}
-.second-section__second-elipse {
-  left: -27px;
-  top: 270px;
-}
-.second-section .cards-item {
-  width: 220px;
-  height: 220px;
-}
-.second-section .cards-item img {
-  height: 200px;
-}
-.second-section .cards-item__text {
-  top: 92px;
-  left: 20px;
-  font-size: 22px;
-}
-.second-section .icons-item__text {
-  font-size: 14px;
-}
-.second-section .icons-item__text span {
-  font-size: 30px;
-}
-.second-section .icons-item img {
-  width: 50px;
-}
-.second-section .third-section__container {
-  padding-left: 40px;
-}
-.second-section .third-section__right-wrapper {
-  max-width: 450px;
-}
-.second-section .elipse_big {
-  width: 250px;
-  height: 250px;
-}
-.second-section .title__hr_top {
-  bottom: 60px;
-}
-
 @media (max-width: 767px) {
   .container {
     width: 540px;

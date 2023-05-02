@@ -449,20 +449,20 @@ html
       width: 170px
       height: 170px
 
-.second-section
-  min-height: 450px
-  &__container
-    padding-top: 20px
-  &__title
-    margin-bottom: 25px
-  &__cards-box
-    margin-bottom: 10px
-  &__first-elipse
-    top: 80px
-    right: -36px
-  &__second-elipse
-    left: -27px
-    top: 270px
+  .second-section
+    min-height: 450px
+    &__container
+      padding-top: 20px
+    &__title
+      margin-bottom: 25px
+    &__cards-box
+      margin-bottom: 10px
+    &__first-elipse
+      top: 80px
+      right: -36px
+    &__second-elipse
+      left: -27px
+      top: 270px
   .cards-item
     width: 220px
     height: 220px
@@ -473,8 +473,8 @@ html
       top: 92px
       left: 20px
       font-size: 22px
+    .icons-item
 
-  .icons-item
     &__text
       font-size: 14px
       span
@@ -493,12 +493,27 @@ html
     height: 250px
 
   .third-section
-    // &__left-title
-    //   display: none
-
+    min-height: 510px
+    &__left-title
+      display: none
+    &__right-wrapper
+      max-width: 600px
+    &__container
+      justify-content: flex-start
+      padding-left: 20px
+      padding-top: 20px
+    &__right-title
+      margin-bottom: 10px
   .title
     &__hr_top
       bottom: 60px
+  .footer
+    &__img
+      width: 500px
+    &__title
+      margin-bottom: 10px
+    &__container
+      min-height: 210px
 
 @media (max-width: 767px)
   .container
