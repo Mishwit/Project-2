@@ -368,6 +368,7 @@ table {
 @font-face {
   font-family: "MontserratT";
   src: url("../fonts/Montserrat-Regular.ttf");
+  font-display: swap;
   font-weight: regular;
   font-style: normal;
 }
@@ -1136,7 +1137,116 @@ html {
   }
 }
 @media (max-width: 575px) {
+  .main-section {
+    min-height: 360px;
+  }
+  .main-section__first-elipse {
+    top: 35px;
+    right: 15px;
+  }
+  .main-section__second-elipse {
+    bottom: -360px;
+    right: -90px;
+  }
   .container {
     width: 100%;
+  }
+  .elipse {
+    width: 130px;
+    height: 130px;
+  }
+  .elipse__subtract {
+    width: 95px;
+    height: 95px;
+  }
+  .elipse__subtract_big {
+    width: 110px;
+    height: 110px;
+  }
+  .elipse_big {
+    width: 170px;
+    height: 170px;
+  }
+  .left-wrapper {
+    display: none;
+  }
+  .right-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 40px;
+  }
+  .right-wrapper__text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .second-section__container {
+    min-height: 750px;
+  }
+  .second-section__first-elipse {
+    top: 15px;
+    right: 15px;
+  }
+  .second-section__second-elipse {
+    left: 15px;
+    top: 530px;
+  }
+  .second-section__cards-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .second-section__cards-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .second-section__cards-item:last-child {
+    margin-bottom: 0;
+  }
+  .second-section__icons-box {
+    padding-left: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .second-section__icons-item:nth-child(2) {
+    margin-right: 23px;
+  }
+  .third-section__container {
+    min-height: 580px;
+    padding-top: 0;
+  }
+  .third-section__first-elipse {
+    top: 280px;
+    left: 40px;
+  }
+  .third-section__second-elipse {
+    top: -85px;
+    right: -90px;
+  }
+  .third-section__figure {
+    width: 150px;
+    top: 375px;
+    left: 0px;
+  }
+  .third-section__text {
+    margin-bottom: 15px;
+  }
+  .footer img {
+    width: 250px;
+    left: -150px;
+  }
+  .footer__container {
+    min-height: 120px;
+  }
+  .footer__title {
+    font-size: 26px;
+  }
+  .footer .title__hr_top {
+    bottom: 25px;
+    left: 0;
+    width: 20px;
+  }
+  .footer .icons__item {
+    height: 35px;
+    width: 35px;
   }
 }/*# sourceMappingURL=styles.css.map */
