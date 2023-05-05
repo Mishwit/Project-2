@@ -505,7 +505,7 @@ html {
 
 .icons {
   position: relative;
-  z-index: 1;
+  z-index: 6;
   display: flex;
   flex-direction: row;
 }
@@ -538,6 +538,16 @@ html {
   margin: 0;
   border: none;
   border-top: 1px solid black;
+}
+
+.buttons-link__white {
+  text-decoration: none;
+  color: white;
+}
+
+.buttons-link__black {
+  text-decoration: none;
+  color: black;
 }
 
 .buttons {

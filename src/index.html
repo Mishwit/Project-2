@@ -109,7 +109,7 @@
 
             <li class="nav-menu__list-item"><a href="#lessons"> Занятия</a></li>
 
-            <li class="nav-menu__list-item"><a href="#"> Запись</a></li>
+            <li class="nav-menu__list-item"><a href="#entry"> Запись</a></li>
           </ul>
         </nav>
       </div>
@@ -133,14 +133,22 @@
         <div class="right-wrapper">
           <!-- Иконки -->
           <div class="right-wrapper__icons-box icons">
-            <div class="icons__item"><i class="fa-brands fa-skype"></i></div>
-
-            <div class="icons__item"><i class="fa-brands fa-vk"></i></div>
-
-            <div class="icons__item"><i class="fa-brands fa-telegram"></i></div>
+            <div class="icons__item">
+              <a class="buttons-link__black" href="#">
+                <i class="fa-brands fa-skype"></i
+              ></a>
+            </div>
 
             <div class="icons__item">
-              <i class="fa-brands fa-instagram"></i>
+              <a class="buttons-link__black" href="#"
+                ><i class="fa-brands fa-vk"></i
+              ></a>
+            </div>
+
+            <div class="icons__item"><a class="buttons-link__black" href="#"><i class="fa-brands fa-telegram"></i></div>
+
+            <div class="icons__item">
+              <a class="buttons-link__black" href="#"><i class="fa-brands fa-instagram"></i>
             </div>
           </div>
           <!-- Заголовок -->
@@ -155,16 +163,21 @@
           <!-- Кнопки -->
           <div class="right-wrapper__button buttons">
             <button class="buttons__main-btn">
-              Забронировать <br />
-              урок
+              <a class="buttons-link__white" href="#">
+                Забронировать <br />
+                урок
+              </a>
             </button>
 
             <!-- Иконка с текстом -->
             <div class="right-wrapper__icon-btn buttons__icon-btn">
               <img src="./icons/Иконка чата 1.svg" alt="chat" />
+
               <p class="buttons__text">
-                Есть <br />
-                вопросы?
+                <a class="buttons-link__black" href="#">
+                  Есть <br />
+                  вопросы?
+                </a>
               </p>
             </div>
           </div>
@@ -322,16 +335,20 @@
           </p>
           <div class="right-wrapper__button buttons">
             <button class="buttons__main-btn">
-              Забронировать <br />
-              урок
+              <a class="buttons-link__white" href="#">
+                Забронировать <br />
+                урок
+              </a>
             </button>
 
             <!-- Иконка с текстом -->
             <div class="right-wrapper__icon-btn buttons__icon-btn">
               <img src="./icons/Иконка чата 1.svg" alt="chat" />
               <p class="buttons__text">
-                Есть <br />
-                вопросы?
+                <a class="buttons-link__black" href="#">
+                  Есть <br />
+                  вопросы?
+                </a>
               </p>
             </div>
           </div>
@@ -351,7 +368,7 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
+    <footer id="entry" class="footer">
       <div class="container footer__container">
         <img class="footer__img" src="./img/Гриф-1.png" alt="Гриф" />
         <div class="footer__wrapper">
@@ -363,23 +380,35 @@
           </h5>
           <!-- Иконки -->
           <div class="footer__icons-box icons">
-            <div class="icons__item"><i class="fa-brands fa-skype"></i></div>
-
-            <div class="icons__item"><i class="fa-brands fa-vk"></i></div>
-
-            <div class="icons__item"><i class="fa-brands fa-telegram"></i></div>
+            <div class="icons__item">
+              <a class="buttons-link__black" href="#">
+                <i class="fa-brands fa-skype"></i
+              ></a>
+            </div>
 
             <div class="icons__item">
-              <i class="fa-brands fa-instagram"></i>
+              <a class="buttons-link__black" href="#"
+                ><i class="fa-brands fa-vk"></i
+              ></a>
+            </div>
+
+            <div class="icons__item"><a class="buttons-link__black" href="#"><i class="fa-brands fa-telegram"></i></div>
+
+            <div class="icons__item">
+              <a class="buttons-link__black" href="#"><i class="fa-brands fa-instagram"></i>
             </div>
           </div>
         </div>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
     <script
       src="https://kit.fontawesome.com/ae5d80bc3b.js"
       crossorigin="anonymous"
     ></script>
+
     <script src="./js/script.js"></script>
   </body>
 </html>
